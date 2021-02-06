@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            h1 {
+                font-family : arial;
+                text-align : center;
+            }
+            
+            body {
+                background-color : lightgreen;
+                font-family : "Source Code Pro", monospace;
+            }
+            
+            #details {
+                font-family : arial;
+            }
+            
+            #logo {
+              align : center
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>You're invited!</h1>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+        <h2>Go Day on Google Open Source</h2>
+        
+        <p>The details:</p>
+        <ul id="details">
+            <li>Address: 1600 Amphitheater Pkwy, Mountain View, California</li>
+            <li> Time : 7:00PM </li>
+            <li> Date : November 5, 2020 </li>
+        </ul>
+        <h2> Dear Developer!</h2>
+        <p> Welcome to the Go Day on Google Open Source! On this event Go experts will share updates on everything from Go basics to Package Discovery and Editor Tooling. </p>
+        
+        <h3>Source: <a href="https://opensourcelive.withgoogle.com/events/go"> Google open source </a></h3>
+    </body>
+</html>
