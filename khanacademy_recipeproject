@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        h1, h2, p {
+            font-family : Arial;
+        }
+        
+        table {
+            background-color : orange;
+        }
+        
+        .recipe {
+            color : darkgreen;
+        }
+        
+        </style>
+    </head>
+    <body>
+       
+        <h1>Dima's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#carbonara">Recipe #1 - Carbonara</a></li>
+            <li><a href="#napolitana">Recipe #2 - Napolitana</a></li>
+            <li><a href="#bolognese">Recipe #3 - Bolognese</a></li>
+        </ol>
+        
+        <h2 id="carbonara" class="recipe">Recipe #1 - Carbonara</h2>
+        
+        
+        <ul>
+            <li>Time: 50 min</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                    <td>Pasta (whatever) </td>
+                    <td> 3.99 </td>
+                    <td> 200g </td>
+                </tr>
+                <tr>
+                    <td>Cream</td>
+                    <td> 5.99 </td>
+                    <td> 100g </td>
+                </tr>
+                <tr>
+                    <td>Parmesan cheese </td>
+                    <td>19.99 </td>
+                    <td> 100g</td>
+                </tr>
+                <tr>
+                    <td>Pancetta</td>
+                    <td>14.99</td>
+                    <td>100g</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Do something.
+</p>
+<p><strong>Step 2:</strong> Do something once again </p>
+        
+    <p><em>Source: <a href="https://tasty.com">Tasty</a></em></p>
+    
+    
+    <h2 id="napolitana" class = "recipe">Recipe #2 - Napolitana</h2>
+    <ul>
+            <li>Time: 50 min</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                    <td>Pasta (whatever) </td>
+                    <td> 3.99 </td>
+                    <td> 200g </td>
+                </tr>
+                <tr>
+                    <td>Tomatoes</td>
+                    <td> 5.99 </td>
+                    <td> 100g </td>
+                </tr>
+                <tr>
+                    <td>Basil </td>
+                    <td>1.99 </td>
+                    <td> 10g</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Do something.
+</p>
+    <p><strong>Step 2:</strong> Do something once again </p>
+    <p><em>Source: <a href="https://tasty.com">Tasty</a></em></p>
+    
+    <h2 id="bolognese" class = "recipe">Recipe #2 - Bolognese</h2>
+    <ul>
+            <li>Time: 50 min</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                    <td>Pasta (whatever) </td>
+                    <td> 3.99 </td>
+                    <td> 200g </td>
+                </tr>
+                <tr>
+                    <td>Tomatoes</td>
+                    <td> 5.99 </td>
+                    <td> 100g </td>
+                </tr>
+                <tr>
+                    <td>Basil </td>
+                    <td>1.99 </td>
+                    <td> 10g</td>
+                </tr>
+                <tr>
+                    <td>Ground beef</td>
+                    <td> 200g </td>
+                    <td>13.99</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Do something.
+</p>
+    <p><strong>Step 2:</strong> Do something once again </p>
+    <p><em>Source: <a href="https://tasty.com">Tasty</a></em></p>
+    
+    </body>
+</html>
