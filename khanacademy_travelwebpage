@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            h1 {
+                color : orange;
+            }
+            
+            #answer {
+                color : darkgreen;
+            }
+            
+            h2 {
+                color : darkgreen;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to California</h1>
+        
+        <p> You want to travel to <strong>California</strong>?</p>
+        <p id="answer"> We have an answer fo you!</p>
+        <h2> There you will see that</h2>
+        <p> The grass is greener than everywhere else! </p>
+        
+        <img src="https://www.kasandbox.org/programming-images/cute/GrassBlock.png" alt="grass">
+        
+        <p> The chicks are the hottest in the world </p>
+        
+        <img src="https://www.kasandbox.org/programming-images/creatures/Hopper-Cool.png" alt="chick">
+        <h2> The advantages of our company:</h2>
+        <ol>
+            <li> Full refund if you return tickets earlier than 2 days before the flight </li>
+            <li> Insurance and full expence coverage during flight </li>
+        </ol>
+        
+        <h1> Buy a tour for just 999$!</h1>
+    </body>
+</html>
